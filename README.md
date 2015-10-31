@@ -1,7 +1,7 @@
 /////////////////////////////////////////
-/									                    	/	
-/    	Assembler_Linker_Loader		      	/
-/									                    	/ 	
+/					/	
+/    	Assembler_Linker_Loader		/
+/					/ 	
 /////////////////////////////////////////	
 
 Discription:
@@ -11,6 +11,7 @@ Discription:
 			must pass through these and finally converted to 
 			Machine readable instrcutions which are actually 
 			computed by CPU.
+			
 Mechanism :
 			Input to the assembler is program written in simple 'C' type
 			language( not 'C' exactly). Assembler parse this program file
@@ -32,7 +33,7 @@ How to use:
 			$python run.py
 			An file dialog will be open to select the program files as input,
 			to choose multiple files, press CTRL and select those files after
-			this click open then assembling starts and generate files 
+			this click open then assembling starts and generate files.
 			
 			After pass 1 : "file_name.pre"
 			After pass 2 : "file_name.pre.s"
@@ -55,5 +56,5 @@ that code is only for linux machines, so not sure about windows.
 
 
 /********************/
-/	     THANK YOU 		 /	
+/	THANK YOU    /	
 /********************/
